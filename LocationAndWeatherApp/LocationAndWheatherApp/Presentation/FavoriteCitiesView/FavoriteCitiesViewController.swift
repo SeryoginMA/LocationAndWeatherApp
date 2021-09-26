@@ -57,6 +57,7 @@ final class FavoriteCitiesViewController: UIViewController{
         loadingAnimation()
         present(alert, animated: true, completion: nil)
     }
+    
     private func loadingAnimation(){
         loadingView.isHidden = !loadingView.isHidden
         if activityIndicator.isAnimating{
